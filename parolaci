@@ -1,0 +1,8 @@
+import random
+
+içerik="abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+parola= int(input("Parolanızın uzunluğunu giriniz"))
+sifre=""
+for i in range(parola):
+    sifre=random.choice(içerik)+şifre
+print(sifre)
